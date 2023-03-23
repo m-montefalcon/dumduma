@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185136961043",
+    "project_id": "dumduma-d4cd4",
+    "storage_bucket": "dumduma-d4cd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185136961043:android:b171c2f8f373cbfabb51e6",
+        "android_client_info": {
+          "package_name": "com.example.dumduma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185136961043-6tter6laud92ka3b2r5pkmlj61006itg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLGkXjzngBLvLTz2wTFiA7LNR-IKsTmkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185136961043-6tter6laud92ka3b2r5pkmlj61006itg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
