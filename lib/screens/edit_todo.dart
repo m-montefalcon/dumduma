@@ -42,7 +42,8 @@ class _EditTodoState extends State<EditTodo> {
                     actions: [
                       TextButton(onPressed: ()async{
                         await FirestoreService().deleteTodo(widget.todo.id);
-                        Navigator.popUntil(context, (route) => false);
+                        Navigator.pop(context);
+                        Navigator.pop(context);
                       }, child: Text("Yes")),
                       TextButton(onPressed: (){
                         Navigator.pop(context);
