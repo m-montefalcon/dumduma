@@ -45,7 +45,7 @@ class _EditTodoState extends State<EditTodo> {
                         Navigator.of(context).popUntil((route) => route.isFirst);
                       }, child: Text("Yes")),
                       TextButton(onPressed: (){
-                        Navigator.pop(context);
+                        Navigator.of(context).popUntil((route) => route.isFirst);
                       }, child: Text("No"))
                     ],
                   );
